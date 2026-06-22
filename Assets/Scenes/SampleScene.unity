@@ -232,7 +232,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572171354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9, y: -524, z: -9719.999}
+  m_LocalPosition: {x: -9, y: -524, z: 0}
   m_LocalScale: {x: 1911.2528, y: 44.50637, z: 108}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -482,7 +482,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 769a57206aa35154cb468d0e4a3562ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -502,7 +502,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846164812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -189, y: -302, z: -9719.999}
+  m_LocalPosition: {x: 81, y: 645, z: 0}
   m_LocalScale: {x: 72.5976, y: 71.87162, z: 72.5976}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -682,6 +682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 921579040}
   - component: {fileID: 921579041}
+  - component: {fileID: 921579042}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -697,7 +698,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921579038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0558758, y: -3.320724, z: -0.011229935}
+  m_LocalPosition: {x: -1.0558758, y: -3.320724, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -718,6 +719,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8714440543398899980, guid: 613b7a8a9009fbe4e9a396c013e01598, type: 3}
   shootingpalce: {fileID: 1683259299}
+--- !u!114 &921579042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921579038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a879268e75ec4748aca2e18ad4e44aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 610425702100166158, guid: 67b703d15bde0b34fae40e1a4ad97cac, type: 3}
 --- !u!1 &1611836420
 GameObject:
   m_ObjectHideFlags: 0
